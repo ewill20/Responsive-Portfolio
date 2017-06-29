@@ -1,0 +1,84 @@
+html {
+	width: 100%;
+	padding: 0;
+	background-image: url(assets/images/concrete-texture.png);
+	background-repeat: repeat;
+}
+body {
+	box-sizing: border-box;
+}
+@media only screen and (max-width: 640px) { 
+	header .name .links {
+		width: 100%;
+		display: block;
+	}
+}
+@media only screen and (max-width: 768px) and (min-width: 641px) {
+	header .name .links {
+		width: 100%;
+		display: block;
+	}
+}
+@media only screen and (min-width: 769px) and (max-width: 980px) {
+		header .name .links {
+			width: 100%;
+			display: block;
+
+		}
+}
+body {
+	width: 980px;
+	margin: 0 auto;
+}
+#header {
+	height: 150px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: white;
+	height: 50px;
+	margin-top: 20px;
+}
+.links {
+	float: right;
+	margin-right: 50px;
+	position: relative;
+	top: -60px;
+
+}
+.name {
+	font-size: 30px;
+	color: white;
+	background-color: #4aaaa5;
+	width: 200px;
+	text-align: center;
+	margin-left: 200px;
+	height: 50px;
+	padding-top: 20px;
+	position: relative;
+	top: -20px;
+}
+#aboutme {
+	margin-left: 200px;
+	width: 300px;
+	background-color: white;
+	padding: 10px 20px 20px 20px;
+	margin-top: 20px;
+	border: solid lightgray 1px;
+}
+.fa {
+	float: right;
+	display: block;
+	margin-left: 40px;
+	position: relative;
+	right: -50px;
+}
+.connect {
+	width: 200px;
+	height: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	position: relative;
+	right: -50px;
+}
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}

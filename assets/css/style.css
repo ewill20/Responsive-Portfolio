@@ -1,6 +1,8 @@
 /* Style all font awesome icons */
 body {
 	width: 960px;
+	box-sizing: border-box;
+	height: 800px;
 	
 }
 .container {
@@ -10,14 +12,14 @@ body {
 
 }
 /* Add a hover effect if you want */
-.fa a:hover {
+.socialmedia a:hover {
     opacity: 0.7;
 }
-.fa {
+.fab {
 	float: right;
 	position: relative;
-	top: -770px;
-	right: 30px;
+	top: -720px;
+	right: 80px;
 	background-color: #ffffff;
 	width: 270px;
 	height: 170px;
@@ -33,12 +35,15 @@ body {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	position: relative;
-	top: 200px;
-	right: 200px;
-	height: 170px;
-	width: 270px;
+	top: 40px;
+	right: -600px;
+	height: 150px;
+	width: 250px;
 	border: solid lightgray 1px;
 	padding: 20px 20px 0 20px;
+	text-align: center;
+	display: block;
+	font-size: 18px;
 }
 .connect2 {
 	float: right;
@@ -57,12 +62,15 @@ body {
 }
 h2 {
 	color: #4aaaa5;
-	font-size: 24px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	display: block;
 }
 #selfie {
 	height: 300px;
 	width: 360px;
+	padding-bottom: 10px;
+	position: relative;
+	top: 10px;
 }
 /* Set a specific color for each brand 
 }
@@ -70,37 +78,44 @@ h2 {
 .fa-facebook {
     background: #3B5998;
     color: white;
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 75px;
     margin: 5px 15px 5px 15px;
     position: relative;
-    top: -35px;
-    right: 329px;
+    top: -41px;
+    right: 238px;
+    font-size: 40px;
+    padding-top: 15px;
 }
 .fa-linkedin {
 	background: #007bb5;
 	color: white;
-	height: 40px;
-	width: 40px;
+	height: 60px;
+	width: 75px;
 	margin: 5px 15px 5px 15px;
 	position: relative;
-    top: -35px;
-    right: 121px;
+    top: -41px;
+    right: 248px;
+    font-size: 40px;
+    padding-top: 15px;
 }
 .fa-instagram {
-	background: #125688;
+	background: #ff0080;
 	color: white;
-	height: 40px;
-	width: 40px;
+	height: 60px;
+	width: 75px;
 	margin: 5px 15px 5px 15px;
 	position: relative;
-    top: -107px;
-    right: 139px;
+    top: -126px;
+    right: 98px;
+    font-size: 40px;
+    padding-top: 15px
 }
 .socialmedia {
 	position: relative;
-	right: -155px;
+	right: -195px;
 	top: 50px;
+	display: inline;
 }
 header {
 	background-color: #ffffff;
@@ -111,20 +126,23 @@ header {
 #aboutme {
 	background-color: white;
 	width: 360px;
-	height: 750px;
+	height: 770px;
 	line-height: 1em;
-	margin: 40px 0 0 200px;
+	margin: 40px 200px 0px 160px;
 	padding: 10px 20px 10px 20px;
 	border: solid lightgray 1px;
+	position: relative;
+	top: -172px;
 }
 .name {
-	font-size: 30px;
-	margin-left: 200px;
+	font-size: 24px;
+	margin-left: 160px;
 	background-color: #4aaaa5;
-	padding: 13px 30px 10px 30px;
+	padding: 15px 30px 10px 30px;
 	margin-right: 550px;
 	color: white;
-	height: 53px;
+	height: 51px;
+	text-align: center;
 }	
 .links a {
 	position: relative;
@@ -138,9 +156,6 @@ header {
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
-}
-a .about {
-	font-size: 30px;
 }
 .portfolio {
 	background-color: white;
@@ -293,7 +308,24 @@ footer {
 	margin-top: 20px;
 	font-size: 16px;
 	margin-bottom: 0;
-
 }
-
+@media only screen and (max-width: 640px) { 
+	header .name #container .links {
+		width: 100%;
+		display: block;
+	}
+}
+@media only screen and (max-width: 768px) and (min-width: 641px) {
+	header .name #container .links {
+		width: 100%;
+		display: block;
+	}
+}
+@media only screen and (min-width: 769px) and (max-width: 980px) {
+		header .name #container .links {
+			width: 100%;
+			display: block;
+		}
+}
+@media only screen and ()
 

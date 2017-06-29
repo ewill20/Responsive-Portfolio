@@ -13,13 +13,14 @@ body {
 	position: relative;
 	top: -621px;
 	right: -530px;
-	height: 170px;
+	height: 150px;
 	width: 250px;
 	border: solid lightgray 1px;
 	font-size: 24px;
 	text-align: center;
 	padding: 20px 20px 0 20px;
 	display: block;
+	font-size: 18px;
 }
 h2 {
 	color: #4aaaa5;
@@ -29,31 +30,38 @@ h2 {
 .fa-facebook {
     background: #3B5998;
     color: white;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 75px;
     margin: 5px 15px 5px 15px;
     position: relative;
     right: 35px;
-    top: 25px;
+    top: 5px;
+    font-size: 40px;
+    padding-top: 15px;
 }
 .fa-linkedin {
 	background: #007bb5;
 	color: white;
-	height: 50px;
-	width: 50px;
+	height: 60px;
+	width: 75px;
 	margin: 5px 15px 5px 15px;
 	position: relative;
-	right: -35px;
-	top: 25px;
+	right: 54px;
+	top: 5px;
+	font-size: 40px;
+	padding-top: 15px;
 }
 .fa-instagram {
-	background: #125688;
+	background: #ff0080;
 	color: white;
-	height: 50px;
-	width: 50px;
+	height: 60px;
+	width: 75px;
 	margin: 5px 15px 5px 15px;
 	position: relative;
-	top: -35px;
+	top: -80px;
+	right: -89px;
+	font-size: 40px;
+	padding-top: 15px;
 }
 header {
 	background-color: #ffffff;

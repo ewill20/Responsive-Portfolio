@@ -41,31 +41,40 @@ h2 {
     background: #3B5998;
     color: white;
     height: 60px;
-    width: 60px;
+    width: 75px;
     margin: 5px 15px 5px 15px;
     position: relative;
-    top: -1695px;
-    right: -645px;
+    top: -1715px;
+    right: -644px;
+    font-size: 40px;
+    padding-top: 15px;
+    text-align: center;
 }
 .fa-linkedin {
 	background: #007bb5;
 	color: white;
 	height: 60px;
-	width: 60px;
+	width: 75px;
 	margin: 5px 15px 5px 15px;
 	position: relative;
-    top: -1695px;
-    right: -645px;
+    top: -1715px;
+    right: -623px;
+    font-size: 40px;
+    padding-top: 15px;
+    text-align: center;
 }
 .fa-instagram {
-	background: #125688;
+	background: #ff0080;
 	color: white;
 	height: 60px;
-	width: 60px;
+	width: 75px;
 	margin: 5px 15px 5px 15px;
 	position: relative;
-    top: -1695px;
-    right: -645px;
+    top: -1715px;
+    right: -601px;
+    font-size: 40px;
+    padding-top: 15px;
+    text-align: center;
 }
 header {
 	background-color: #ffffff;
@@ -203,7 +212,7 @@ footer {
 	right: 30px;
 	background-color: #ffffff;
 	width: 250px;
-	height: 170px;
+	height: 150px;
 	color: #4aaaa5;
 	font-size: 24px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
